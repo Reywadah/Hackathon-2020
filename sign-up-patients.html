@@ -20,14 +20,13 @@
                 <a href="">Ministry Of Health</a>
             </div>
             <ul>
-            <li><a href="https://www.youtube.com/watch?v=tfWMwG6aYzQ">About</a></li>
-            <li><a href="https://www.youtube.com/watch?v=4HGNqFdaD34">Sharks</a></li> 
-            <li><a href="https://www.merriam-webster.com/dictionary/FAQ">FAQ</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="../../Doctor/Doctor-first-page.html">Home</a></li> 
+            <li><a href="">My Account</a></li>
+            <li><a href="../../../index.html">Sign out</a></li>
             </ul>
         </header>
         <form>
-              <div>   
+            <div>
                 <label for="name" class="large-label">Name</label>
                 <input id="name" type="text" placeholder="" />
               </div>
@@ -43,14 +42,31 @@
                 <label for="email" class="large-label">Confirm Password</label>
                 <input id="email" type="password" placeholder="" />
               </div>
-              <div>
-                <label for="email" class="large-label">Profession</label>
-                <input id="email" type="text" placeholder="" />
+            </div>
+                <fieldset>
+                  <legend class="large-label">Gender</legend>
+                  <input type="radio" name="grid" id="male" value="male" />
+                  <label for="yes" class="small-label">Male</label>
+                  <input type="radio" name="grid" id="female" value="female" />
+                  <label for="no" class="small-label">Female</label>
+                </fieldset>
+                <fieldset>
+                  <legend class="large-label">Status</legend>
+                  <input type="radio" name="grid" id="stable" value="stable" />
+                  <label for="yes" class="small-label">stable</label>
+                  <input type="radio" name="grid" id="unstable" value="unstable" />
+                  <label for="no" class="small-label">unstable</label>
+                </fieldset>
+              <div class="rightside">
+                <label for="name" class="large-label">Age</label>
+                <input id="name" type="number" placeholder="" />
               </div>
+            </div>
+          </div>
             <div class="full-width">
             <button type="submit">Register Patient</button>
             <button type="reset">Clear Form</button>
-          </div>
+            </div>
         </form>
         <footer>Copyright © Reywadah @ GitHub</footer>
     </body>
